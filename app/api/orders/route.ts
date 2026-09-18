@@ -25,7 +25,12 @@ export async function POST(req: NextRequest) {
 
     // Calculate total
     let totalCents = 0;
-    const orderItems = [];
+    const orderItems: Array<{
+      product_id: number;
+      product_name: string;
+      quantity: number;
+      price_cents: number;
+    }> = [];
 
     for (const item of items) {
       const productResult = await pool.query(
