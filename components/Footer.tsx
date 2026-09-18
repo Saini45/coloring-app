@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="container">
           <div className="footer-grid">
             <div className="footer-section">
-              <h4>Little Hands, Big Imagination</h4>
+              <h4>RangPankh</h4>
               <p>One simple place for parents to find creative and meaningful activities for their little ones.</p>
               <div className="social-links">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Instagram">📷</a>
@@ -49,7 +49,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-bottom">
-            <p>© {currentYear} Little Hands, Big Imagination. All rights reserved.</p>
+            <p>© {currentYear} RangPankh. All rights reserved.</p>
             <p className="footer-tagline">Made with ❤️ for curious little minds.</p>
           </div>
         </div>

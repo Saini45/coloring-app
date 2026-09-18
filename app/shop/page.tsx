@@ -96,7 +96,7 @@ function buildQuery(
 }
 
 export const metadata = {
-  title: 'Shop Coloring Books & Activities | Little Hands, Big Imagination',
+  title: 'Shop Coloring Books & Activities | RangPankh',
   description:
     'Browse printable coloring books and activity worksheets for children ages 3 to 6. Instant digital download.',
 };

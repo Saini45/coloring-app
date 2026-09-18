@@ -14,7 +14,7 @@ export default function Home() {
         <section className="hero">
           <div className="hero-content">
             <div className="hero-text">
-              <h1 className="hero-title">Little Hands.<br/>Big Imagination.</h1>
+              <h1 className="hero-title">RangPankh</h1>
               <p className="hero-subtitle">Coloring and creative activities made for curious little minds.</p>
               <Link href="/shop" className="btn btn-primary btn-lg">
                 Explore Activities
@@ -188,7 +188,7 @@ export default function Home() {
                 That's when I realized: <strong>Why isn't there one simple place where parents can find creative activities for their little ones?</strong>
               </p>
               <p>
-                That's why we created Little Hands, Big Imagination—one simple place to discover beautiful, thoughtfully designed activities for kids ages 3–6.
+                That's why we created RangPankh—one simple place to discover beautiful, thoughtfully designed activities for kids ages 3–6.
               </p>
               <p style={{ marginBottom: 0 }}>
                 We hope these pages bring plenty of coloring, curiosity, and happy moments. ❤️

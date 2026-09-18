@@ -12,7 +12,7 @@ export default function Header() {
       <div className="header-container">
         <Link href="/" className="logo">
           <span className="logo-emoji">🎨</span>
-          <span className="logo-text">Little Hands</span>
+          <span className="logo-text">RangPankh</span>
         </Link>
 
         <nav className={`nav ${mobileMenuOpen ? 'mobile-open' : ''}`}>

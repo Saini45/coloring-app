@@ -2,14 +2,14 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Little Hands, Big Imagination | Coloring Books & Activities for Kids',
+  title: 'RangPankh | Coloring Books & Activities for Kids',
   description: 'Discover creative coloring books and activity worksheets designed for curious little minds. Instant digital download.',
   keywords: 'coloring books, preschool activities, toddler worksheets, educational printables',
   openGraph: {
     type: 'website',
     locale: 'en_IN',
     url: 'https://rangpankh.co.in',
-    siteName: 'Little Hands, Big Imagination',
+    siteName: 'RangPankh',
   },
 };
 
