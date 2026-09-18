@@ -1,0 +1,145 @@
+.header {
+  background: white;
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-md) var(--space-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  text-decoration: none;
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--primary);
+  transition: color var(--transition-fast);
+}
+
+.logo:hover {
+  color: var(--primary-dark);
+}
+
+.logo-emoji {
+  font-size: 28px;
+}
+
+.logo-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nav {
+  display: flex;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.nav a {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+  padding: var(--space-sm) 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a:hover {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  text-decoration: none;
+}
+
+.nav-cart {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  background: var(--primary);
+  color: white !important;
+  padding: var(--space-sm) var(--space-lg) !important;
+  border-radius: 6px;
+  border: none !important;
+  font-weight: 600;
+  font-size: var(--text-base);
+}
+
+.nav-cart:hover {
+  background: var(--primary-dark);
+  border-color: transparent !important;
+}
+
+.mobile-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.mobile-toggle span {
+  width: 24px;
+  height: 3px;
+  background: var(--dark);
+  border-radius: 2px;
+  transition: all var(--transition-fast);
+}
+
+.mobile-toggle:hover span {
+  background: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .mobile-toggle {
+    display: flex;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    gap: 0;
+    border-bottom: 1px solid var(--gray-light);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition);
+  }
+
+  .nav.mobile-open {
+    max-height: 300px;
+  }
+
+  .nav a {
+    display: block;
+    padding: var(--space-md) var(--space-lg);
+    border-bottom: 1px solid var(--gray-light);
+    margin: 0;
+    border-bottom-color: var(--gray-light) !important;
+  }
+
+  .nav a:hover {
+    background: var(--gray-light);
+  }
+
+  .nav-cart {
+    width: calc(100% - 2 * var(--space-lg));
+    margin: var(--space-md) var(--space-lg);
+    justify-content: center;
+  }
+}
