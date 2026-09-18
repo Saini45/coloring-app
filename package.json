@@ -23,7 +23,7 @@
     "aws-sdk": "^2.1500.0",
     "nodemailer": "^6.9.0",
     "@sendgrid/mail": "^7.7.0",
-    "jsonwebtoken": "^9.1.0",
+    "jsonwebtoken": "^9.0.2",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.3.0",
     "axios": "^1.6.0",
@@ -34,5 +34,8 @@
   "devDependencies": {
     "eslint": "^8.50.0",
     "eslint-config-next": "^14.0.0"
+  },
+  "allowScripts": {
+    "sharp@0.32.6": true
   }
 }
