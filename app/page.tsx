@@ -190,7 +190,7 @@ export default function Home() {
               <p>
                 That's why we created Little Hands, Big Imagination—one simple place to discover beautiful, thoughtfully designed activities for kids ages 3–6.
               </p>
-              <p style={{ marginBottom: 0; }}>
+              <p style={{ marginBottom: 0 }}>
                 We hope these pages bring plenty of coloring, curiosity, and happy moments. ❤️
               </p>
             </div>
