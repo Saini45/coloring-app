@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_IN',
-    url: 'https://littlehandsbigimagination.com',
+    url: 'https://rangpankh.co.in',
     siteName: 'Little Hands, Big Imagination',
   },
 };

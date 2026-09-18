@@ -119,7 +119,7 @@ export default function Home() {
                   emoji: '🌊'
                 },
               ].map((product) => (
-                <Link key={product.id} href={`/product/${product.name.toLowerCase().replace(/\s+/g, '-')}`} className="product-card">
+                <Link key={product.id} href={`/shop/${product.name.toLowerCase().replace(/\s+/g, '-')}`} className="product-card">
                   <div className="product-image">
                     <div className="placeholder-image">{product.emoji}</div>
                   </div>

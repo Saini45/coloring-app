@@ -80,7 +80,7 @@ export async function GET(req: NextRequest) {
       await pool.query(
         `INSERT INTO admin_users (username, password_hash, email, is_active)
          VALUES ($1, $2, $3, $4)`,
-        ['admin', hashedPassword, 'admin@littlehandsbigimagination.com', true]
+        ['admin', hashedPassword, 'admin@rangpankh.co.in', true]
       );
 
       return NextResponse.json({
